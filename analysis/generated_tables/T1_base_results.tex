@@ -1,0 +1,40 @@
+% Table: Base Results (Exp1)
+\begin{table}[H]
+\centering
+\caption{Mean robust profit by policy and demand sensitivity scenario ($\Gamma=10$, $|R|=50$, 50~instances).}
+\label{tab:base_results}
+\begin{threeparttable}
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{ll S[round-precision=0,table-format=6.0] S[round-precision=0,table-format=5.0] S[round-precision=1,table-format=3.1]}
+\toprule
+{DI Scenario} & {Policy} & {Mean Profit (\$)} & {Std Dev} & {Median Time (s)} \\
+\midrule
+\multirow{4}{*}{HD} & Optimal & 180814 & 23602 & 9.9 \\
+ & FM0 & 94312 & 13845 & 0.8 \\
+ & FM1 & 134644 & 17864 & 1.1 \\
+ & FM2 & 180762 & 23566 & 1.3 \\
+\midrule
+\multirow{4}{*}{MD} & Optimal & 137068 & 19617 & 9.3 \\
+ & FM0 & 94312 & 13845 & 0.8 \\
+ & FM1 & 115781 & 15804 & 1.3 \\
+ & FM2 & 137030 & 19725 & 1.1 \\
+\midrule
+\multirow{4}{*}{LD} & Optimal & 101552 & 15107 & 12.3 \\
+ & FM0 & 94312 & 13845 & 0.8 \\
+ & FM1 & 98477 & 14504 & 1.1 \\
+ & FM2 & 98991 & 15632 & 1.5 \\
+\midrule
+\multirow{4}{*}{Mixed} & Optimal & 138263 & 19274 & 9.2 \\
+ & FM0 & 94312 & 13845 & 0.8 \\
+ & FM1 & 115825 & 15536 & 1.2 \\
+ & FM2 & 137914 & 19436 & 1.1 \\
+\midrule
+\multirow{4}{*}{Overall} & Optimal & 139424 & 34236 & 9.8 \\
+ & FM0 & 94312 & 13741 & 0.8 \\
+ & FM1 & 116182 & 20391 & 1.1 \\
+ & FM2 & 138674 & 35033 & 1.2 \\
+\bottomrule
+\end{tabular}
+\end{threeparttable}
+\end{table}

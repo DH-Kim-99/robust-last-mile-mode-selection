@@ -1,0 +1,25 @@
+% Table: Breakeven Analysis
+\begin{table}[H]
+\centering
+\caption{Transportation cost breakeven analysis: Optimal vs.\ FM2 under increasing fast-delivery cost $TC_2$ (LD scenario, $\Gamma=10$, 50~instances).}
+\label{tab:breakeven}
+\begin{threeparttable}
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{r r S[round-precision=0,table-format=6.0] S[round-precision=0,table-format=6.0] S[round-precision=0,table-format=5.0] S[round-precision=1,table-format=3.1] S[round-precision=0,table-format=3.0]}
+\toprule
+{$TC_2$} & {$TC_2/TC_0$} & {Optimal (\$)} & {FM2 (\$)} & {VoFF (\$)} & {VoFF (\%)} & {\% Opt $>$ FM2} \\
+\midrule
+0.20 & 4$\times$ & 101552 & 98991 & 2561 & 2.8 & 100 \\
+0.40 & 8$\times$ & 99400 & 84504 & 14896 & 18.5 & 100 \\
+0.60 & 12$\times$ & 99140 & 71986 & 27449 & 42.1 & 94 \\
+0.80 & 16$\times$ & 99052 & 58294 & 40758 & 78.2 & 100 \\
+1.00 & 20$\times$ & 99023 & 45987 & 53036 & 162.5 & 100 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item $TC_0 = 0.05$. VoFF = Optimal profit $-$ FM2 profit. \% Opt $>$ FM2 = percentage of instances where Optimal strictly outperforms FM2.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

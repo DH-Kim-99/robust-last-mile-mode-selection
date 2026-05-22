@@ -1,0 +1,26 @@
+% Table: Gamma Sensitivity
+\begin{table}[H]
+\centering
+\caption{Effect of uncertainty budget $\Gamma$ on mean robust profit and value of fast delivery ($|R|=200$, 50~instances per cell).}
+\label{tab:gamma_sensitivity}
+\begin{threeparttable}
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{r S[round-precision=0,table-format=7.0] S[round-precision=0,table-format=7.0] S[round-precision=0,table-format=6.0] S[round-precision=1,table-format=3.1] S[round-precision=0,table-format=6.0] S[round-precision=1,table-format=2.1]}
+\toprule
+{$\Gamma$} & {Optimal} & {FM0} & {VoFD (\$)}\tnote{a} & {VoFD (\%)} & {VoFF (\$)}\tnote{b} & {VoFF (\%)} \\
+\midrule
+20 & 746721 & 558347 & 188374 & 33.7 & 2207 & 0.4 \\
+40 & 686663 & 495565 & 191098 & 38.6 & 1894 & 0.4 \\
+60 & 634408 & 440942 & 193466 & 43.9 & 1620 & 0.3 \\
+80 & 590808 & 394732 & 196143 & 50.1 & 2222 & 0.9 \\
+100 & 554674 & 357650 & 197024 & 55.2 & 1206 & 0.3 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item[a] VoFD = Value of Fast Delivery (Optimal $-$ FM0).
+\item[b] VoFF = Value of Flexibility (Optimal $-$ FM2).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

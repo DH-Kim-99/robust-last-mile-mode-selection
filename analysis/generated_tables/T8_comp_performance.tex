@@ -1,0 +1,22 @@
+% Table: Computational Performance
+\begin{table}[H]
+\centering
+\caption{Computational performance of the C\&CG algorithm.}
+\label{tab:comp_performance}
+\begin{threeparttable}
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{l S[round-precision=0,table-format=4.0] S[round-precision=1,table-format=3.1] S[round-precision=1,table-format=3.1] S[round-precision=1,table-format=4.1] S[round-precision=1,table-format=4.1] S[round-precision=1,table-format=3.1] S[round-precision=1,table-format=3.1]}
+\toprule
+{Experiment} & {Runs} & {Conv.\%} & {Mean (s)} & {Median (s)} & {Q75 (s)} & {Mean Iter.} & {\% $<$60s} \\
+\midrule
+Exp1 (R=50) & 800 & 100.0 & 25.8 & 1.9 & 8.0 & 2.5 & 95.8 \\
+Exp2 (R=200) & 4000 & 100.0 & 41.0 & 5.3 & 18.9 & 2.1 & 86.9 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Convergence tolerance $\epsilon = 100$. Statistics computed over converged instances only.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
