@@ -1,0 +1,2 @@
+Gamma,Seed,DI_Scenario,Converged,Iterations,Start_Time,End_Time,Total_Time,Optimal_Value,LB,UB,Gap,Num_Scenarios,Num_Plants_Opened,Num_DCs_Opened,Opened_Plants,Opened_DCs
+10,29,LD,True,2,2026-03-27 20:04:52,2026-03-27 20:04:59,6.391237020492554,102857.03501057485,102857.03501057485,102944.42417905916,87.38916848431109,2,3,1,"{0: [2], 1: [2], 2: [1]}",[2]
