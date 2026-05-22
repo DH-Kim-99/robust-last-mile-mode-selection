@@ -112,4 +112,4 @@ The following options are accepted by `main.py` and `main_fixed_mode.py`:
 
 If you use this code, please cite:
 
-> Kim, D., and Sarkar, B. Robust last-mile mode selection in supply chain design under speed-dependent demand. *European Journal of Operational Research*, under review.
+> Kim, D., and Sarkar, B. Robust last-mile mode selection in supply chain design under speed-dependent demand. 
